@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using AspMvcFrontEnd.Models;
+using AspMvcFrontEnd.DAL;
 using Microsoft.EntityFrameworkCore;
 
 namespace AspMvcFrontEnd

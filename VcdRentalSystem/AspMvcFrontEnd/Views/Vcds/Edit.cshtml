@@ -1,0 +1,39 @@
+﻿@model AspMvcFrontEnd.Models.VcdModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2>Edit</h2>
+
+<h4>VcdModel</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="VcdId" />
+            <div class="form-group">
+                <label asp-for="VcdName" class="control-label"></label>
+                <input asp-for="VcdName" class="form-control" />
+                <span asp-validation-for="VcdName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="VcdBoughtDate" class="control-label"></label>
+                <input asp-for="VcdBoughtDate" class="form-control" />
+                <span asp-validation-for="VcdBoughtDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
