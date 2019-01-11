@@ -16,6 +16,5 @@ namespace AspMvcFrontEnd.Models
         public bool IsMemberOfAnotherRental { get; set; }
         public ReferenceEnum Reference { get; set; }
         public RentalPackageModel SubscribePackage { get; set; }
-        public List<ContactModel> ApprovedContacts { get; set; }
     }
 }

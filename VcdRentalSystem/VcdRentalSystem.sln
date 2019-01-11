@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2016
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspMvcFrontEnd", "AspMvcFrontEnd\AspMvcFrontEnd.csproj", "{30D56E7B-2B56-419C-A7BE-C96116E146CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspMvcFrontEnd", "AspMvcFrontEnd\AspMvcFrontEnd.csproj", "{30D56E7B-2B56-419C-A7BE-C96116E146CC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspMvcFrontEnd.Tests", "AspMvcFrontEnd.Tests\AspMvcFrontEnd.Tests.csproj", "{AC4100E5-AF4D-4EB9-B0C4-670F8A3FEE70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VcdRentalSystem.Data", "VcdRentalSystem.Data\VcdRentalSystem.Data.csproj", "{589E8A3A-4030-4975-AAAE-87933ECD4340}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{30D56E7B-2B56-419C-A7BE-C96116E146CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30D56E7B-2B56-419C-A7BE-C96116E146CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30D56E7B-2B56-419C-A7BE-C96116E146CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC4100E5-AF4D-4EB9-B0C4-670F8A3FEE70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC4100E5-AF4D-4EB9-B0C4-670F8A3FEE70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC4100E5-AF4D-4EB9-B0C4-670F8A3FEE70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC4100E5-AF4D-4EB9-B0C4-670F8A3FEE70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{589E8A3A-4030-4975-AAAE-87933ECD4340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{589E8A3A-4030-4975-AAAE-87933ECD4340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{589E8A3A-4030-4975-AAAE-87933ECD4340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{589E8A3A-4030-4975-AAAE-87933ECD4340}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -13,7 +13,7 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.VcdName)
+                @Html.DisplayNameFor(model => model.VcdTitle)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.VcdBoughtDate)
@@ -25,7 +25,7 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.VcdName)
+                @Html.DisplayFor(modelItem => item.VcdTitle)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.VcdBoughtDate)
