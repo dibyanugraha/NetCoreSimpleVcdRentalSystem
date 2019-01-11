@@ -10,6 +10,7 @@ namespace AspMvcFrontEnd.Models
     {
         [Key]
         public int ContactId { get; set; }
+        public int TenantId { get; set; }
         [Display(Name = "Full Name")]
         public string FullName { get; set; }
         [Display(Name = "Phone No.")]
@@ -17,5 +18,6 @@ namespace AspMvcFrontEnd.Models
         public int Age { get; set; }
         [Display(Name = "Identity Number")]
         public string IdentityNumber { get; set; }
+        public bool IsConfirmed { get; set; }
     }
 }

@@ -13,6 +13,7 @@ namespace AspMvcFrontEnd.DAL
         public DbSet<RentalOrderModel> RentalOrders { get; set; }
         public DbSet<RentalLedgerEntryModel> RentalLedgerEntries { get; set; }
         public DbSet<ContactModel> Contacts { get; set; }
+        public DbSet<AspMvcFrontEnd.Models.RentalPackageModel> RentalPackageModel { get; set; }
 
     }
 }

@@ -1,0 +1,39 @@
+﻿@model AspMvcFrontEnd.Models.RentalPackageModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>RentalPackageModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.PackageName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.PackageName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.CostPerMonth)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CostPerMonth)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.MaxVcdRental)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.MaxVcdRental)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="RentalPackageId" />
+        <input type="submit" value="Delete" class="btn btn-default" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>

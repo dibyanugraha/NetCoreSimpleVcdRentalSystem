@@ -4,14 +4,16 @@ using AspMvcFrontEnd.DAL;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace AspMvcFrontEnd.Migrations
 {
     [DbContext(typeof(VcdRentalContext))]
-    partial class VcdRentalContextModelSnapshot : ModelSnapshot
+    [Migration("20190111065425_Initialize")]
+    partial class Initialize
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
